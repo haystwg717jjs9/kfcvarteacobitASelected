@@ -124,4 +124,5 @@
 
 - [x] Complete "Read To Earn" (30 pts)
 - [ ] Setup flags for mobile/desktop search only
-- [ ] Setup flags to load config / save data in working directory
+- [ ] Setup flags to load config / save data in working directory 
+- [ ] Provide Windows Task Scheduler config
