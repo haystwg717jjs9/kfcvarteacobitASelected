@@ -222,7 +222,7 @@ def executeBot(currentAccount: Account, args: argparse.Namespace):
         # todo Send notification if these fail to Apprise versus just logging
         ReadToEarn(desktopBrowser).completeReadToEarn(startingPoints)
         DailySet(desktopBrowser).completeDailySet()
-        PunchCards(desktopBrowser).completePunchCards()
+        # PunchCards(desktopBrowser).completePunchCards()
         MorePromotions(desktopBrowser).completeMorePromotions()
         # VersusGame(desktopBrowser).completeVersusGame()
 
