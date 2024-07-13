@@ -57,7 +57,7 @@ class ReadToEarn:
         # json data to confirm an article is read
         json_data = {
             'amount': 1,
-            'country': 'us',
+            'country': 'in',
             'id': 1,
             'type': 101,
             'attributes': {
@@ -78,6 +78,6 @@ class ReadToEarn:
             else:
                 logging.info("[READ TO EARN] Read Article " + str(i+1))
                 balance = newbalance
-                time.sleep(random.randint(10, 20))
+                time.sleep(random.randint(100, 180))
         
         logging.info("[READ TO EARN] Completed the Read to Earn successfully !") 
